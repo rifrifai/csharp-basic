@@ -16,9 +16,12 @@
 
 // int m = (int)20.2;
 // int n = (int)80.4;
-double m = 20.2;
-float n = 80.4F;
-double o = m + n;
+//double m = 20.2; //natural type
+// float n = 80.4F;
+// double o = m + n;
+decimal m = 20.2M; //explicit type
+decimal n = 79.8M;
+decimal o = m + n;
 Console.WriteLine($"The sum of {m} and {n} is {o}");
 
 // int x = 2100000000;
