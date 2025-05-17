@@ -1,14 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 /* Here's below all about looping (if else, while, for) */
-for (int row = 0; row < 10; row++)
+for (int row = 0; row < 6; row++)
 {
-  Console.WriteLine($"The row is {row}");
+  for (char column = 'a'; column <= 'c'; column++)
+  {
+    Console.WriteLine($"The cell is {row}, {column}");
+  }
 }
-for (char column = 'a'; column < 'f'; column++)
-{
-  Console.WriteLine($"The column is {column}");
-}
+
+// for (int row = 0; row < 10; row++)
+// {
+//   Console.WriteLine($"The row is {row}");
+// }
+// for (char column = 'a'; column < 'f'; column++)
+// {
+//   Console.WriteLine($"The column is {column}");
+// }
 
 // int counter = 0;
 // do
