@@ -1,0 +1,14 @@
+F:\Coding\c#\beginner\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.exe
+F:\Coding\c#\beginner\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.deps.json
+F:\Coding\c#\beginner\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.runtimeconfig.json
+F:\Coding\c#\beginner\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.dll
+F:\Coding\c#\beginner\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.pdb
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.AssemblyInfoInputs.cache
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.AssemblyInfo.cs
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.csproj.CoreCompileInputs.cache
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.dll
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\refint\MyFirstConsoleApp.dll
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.pdb
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.genruntimeconfig.cache
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\ref\MyFirstConsoleApp.dll
