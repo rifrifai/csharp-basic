@@ -14,11 +14,18 @@
 
 /* Here's below is all int examples */
 
-int x = 2100000000;
-int y = 2100000000;
+// int m = (int)20.2;
+// int n = (int)80.4;
+double m = 20.2;
+float n = 80.4F;
+double o = m + n;
+Console.WriteLine($"The sum of {m} and {n} is {o}");
+
+// int x = 2100000000;
+// int y = 2100000000;
 // long z = checked(x + y);
-long z = (long)x + (long)y;
-Console.WriteLine($"The sum of {x} and {y} is {z}");
+// long z = (long)x + (long)y;
+// Console.WriteLine($"The sum of {x} and {y} is {z}");
 
 // long a = long.MaxValue;
 // long b = long.MinValue;

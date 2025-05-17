@@ -12,3 +12,4 @@ F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\refint\MyFirstConsoleAp
 F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.pdb
 F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.genruntimeconfig.cache
 F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\ref\MyFirstConsoleApp.dll
+F:\Coding\c#\beginner\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.sourcelink.json
