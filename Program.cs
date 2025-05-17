@@ -1,5 +1,43 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+/* Here's below all about looping (if else, while, for) */
+for (int row = 0; row < 10; row++)
+{
+  Console.WriteLine($"The row is {row}");
+}
+for (char column = 'a'; column < 'f'; column++)
+{
+  Console.WriteLine($"The column is {column}");
+}
+
+// int counter = 0;
+// do
+// {
+//   Console.WriteLine($"Halo Dunia!, counter sekarang adalah {counter}");
+//   counter++;
+// } while (counter <= 10);
+
+// int counter = 0;
+// while (counter <= 10)
+// {
+//   Console.WriteLine($"Hello World! The counter is {counter}");
+//   counter++;
+// }
+
+// int a = 5;
+// int b = 5;
+// int c = 0;
+// if ((a + b + c >= 10) && (a == b))
+// {
+//   Console.WriteLine("The answer is greater than 10");
+//   Console.WriteLine("And the first number is equal to the second number");
+// }
+// else
+// {
+//   Console.WriteLine("The answer is not greater than 10");
+//   Console.WriteLine("Or the first number is not equal to the second number");
+// };
+
 /* Here's below is all type examples */
 
 // var namedData = (Name: "Morning observation", Temp: 17, Wind: 14);
@@ -19,10 +57,10 @@
 //double m = 20.2; //natural type
 // float n = 80.4F;
 // double o = m + n;
-decimal m = 20.2M; //explicit type
-decimal n = 79.8M;
-decimal o = m + n;
-Console.WriteLine($"The sum of {m} and {n} is {o}");
+//decimal m = 20.2M; //explicit type
+// decimal n = 79.8M;
+// decimal o = m + n;
+// Console.WriteLine($"The sum of {m} and {n} is {o}");
 
 // int x = 2100000000;
 // int y = 2100000000;
