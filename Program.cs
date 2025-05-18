@@ -1,13 +1,45 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-/* Here's below all about looping (if else, while, for) */
-for (int row = 0; row < 6; row++)
+/* Here's below all about list collections */
+
+List<string> names = ["Ana", "Ahmad", "Jack"];
+names.Add("Rifai");
+names.Remove("Ahmad");
+// foreach (var name in names)
+// {
+//   Console.WriteLine($"Holla {name}");
+// }
+for (int i = 0; i < names.Count; i++)
 {
-  for (char column = 'a'; column <= 'c'; column++)
-  {
-    Console.WriteLine($"The cell is {row}, {column}");
-  }
+  Console.WriteLine($"Hola {names[i].ToUpper()}");
 }
+
+// var cars = new List<string> { "Toyota", "Honda", "Nissan" };
+// foreach (var car in cars)
+// {
+//   Console.WriteLine($"The car is {car}");
+// }
+
+/* Here's below all about looping (if else, while, for) */
+// for (int i = 1; i <= 10; i++)
+// {
+//   if (i % 2 == 0)
+//   {
+//     Console.WriteLine($"The number {i} is even");
+//   }
+//   else
+//   {
+//     Console.WriteLine($"The number {i} is odd");
+//   }
+// }
+
+// for (int row = 0; row < 6; row++)
+// {
+//   for (char column = 'a'; column <= 'c'; column++)
+//   {
+//     Console.WriteLine($"The cell is {row}, {column}");
+//   }
+// }
 
 // for (int row = 0; row < 10; row++)
 // {
