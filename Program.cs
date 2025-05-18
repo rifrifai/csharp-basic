@@ -2,6 +2,25 @@
 
 /* Here's below all about List collections, arrays */
 
+// fibonacci numbers
+List<int> fibonacciNumbers = [1, 1];
+var previos = fibonacciNumbers[^1];
+var previos2 = fibonacciNumbers[^2];
+fibonacciNumbers.Add(previos + previos2);
+foreach (var f in fibonacciNumbers)
+{
+  Console.WriteLine(f);
+}
+
+// var num = new List<int> { 23, 34, 55, 56, 13, 45 };
+// Console.WriteLine($"I found 45 at index {num.IndexOf(45)}");
+// num.Sort();
+// Console.WriteLine($"I found 45 at index {num.IndexOf(45)}");
+// foreach (var n in num)
+// {
+//   Console.WriteLine($"Nomornya {n}");
+// }
+
 // string[] address = ["Semarang", "Demak", "Pekalongan", "Salatiga", "Demak", "Surakarta"];
 //address.Add("Semarang"); //arrays is fixed
 // address = [.. address, "Jakarta"];
