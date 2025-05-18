@@ -2,17 +2,18 @@
 
 /* Here's below all about list collections */
 
-List<string> names = ["Ana", "Ahmad", "Jack"];
+List<string> names = ["Ana", "Ahmad", "Jack", "Udin", "Ty"];
 names.Add("Rifai");
 names.Remove("Ahmad");
-// foreach (var name in names)
-// {
-//   Console.WriteLine($"Holla {name}");
-// }
-for (int i = 0; i < names.Count; i++)
+foreach (var name in names[2..5])
 {
-  Console.WriteLine($"Hola {names[i].ToUpper()}");
+  Console.WriteLine($"Holla {name}");
 }
+// for (int i = 0; i < names.Count; i++)
+// {
+//   Console.WriteLine($"Hola {names[i].ToUpper()}");
+// }
+// Console.WriteLine(names[^1]);
 
 // var cars = new List<string> { "Toyota", "Honda", "Nissan" };
 // foreach (var car in cars)
