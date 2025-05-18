@@ -1,14 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-/* Here's below all about list collections */
+/* Here's below all about List collections, arrays */
 
-List<string> names = ["Ana", "Ahmad", "Jack", "Udin", "Ty"];
-names.Add("Rifai");
-names.Remove("Ahmad");
-foreach (var name in names[2..5])
-{
-  Console.WriteLine($"Holla {name}");
-}
+// string[] address = ["Semarang", "Demak", "Pekalongan", "Salatiga", "Demak", "Surakarta"];
+//address.Add("Semarang"); //arrays is fixed
+// address = [.. address, "Jakarta"];
+// foreach (var a in address)
+// {
+//   if(a.Contains('S'))
+//   Console.WriteLine($"Alamat nya {a}");
+// }
+
+// List<string> names = ["Ana", "Ahmad", "Jack", "Udin", "Ty"];
+// names.Add("Rifai");
+// names.Remove("Ahmad");
+// names[2..5] adalah 2 inclusive/ including number, 5 ekslusive number/not including
+// foreach (var name in names[2..5])
+// {
+//   Console.WriteLine($"Holla {name}");
+// }
 // for (int i = 0; i < names.Count; i++)
 // {
 //   Console.WriteLine($"Hola {names[i].ToUpper()}");
