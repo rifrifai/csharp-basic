@@ -1,16 +1,40 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+/* Here's below all about language integrated query LINQ and IEnumerable */
+
+List<string> cars = ["Honda", "Hiace", "Yamaha", "Esemka", "BYD", "Alphard"];
+// define query expression
+IEnumerable<string> carsQuery =
+  from car in cars
+  where car.EndsWith('a')
+  select car;
+
+// execute the query
+foreach (string c in carsQuery)
+{
+  Console.Write($"{c} ");
+}
+
+// for (int i = 0; i < numbers.Count; i++)
+// {
+//   if (numbers[i] >= 80)
+//   {
+//     Console.WriteLine($"Nomor lebih dari 80 ditemukan = {numbers[i]}");
+//   }
+// }
+// return;
+
 /* Here's below all about List collections, arrays */
 
 // fibonacci numbers
-List<int> fibonacciNumbers = [1, 1];
-var previos = fibonacciNumbers[^1];
-var previos2 = fibonacciNumbers[^2];
-fibonacciNumbers.Add(previos + previos2);
-foreach (var f in fibonacciNumbers)
-{
-  Console.WriteLine(f);
-}
+// List<int> fibonacciNumbers = [1, 1];
+// var previos = fibonacciNumbers[^1];
+// var previos2 = fibonacciNumbers[^2];
+// fibonacciNumbers.Add(previos + previos2);
+// foreach (var f in fibonacciNumbers)
+// {
+//   Console.WriteLine(f);
+// }
 
 // var num = new List<int> { 23, 34, 55, 56, 13, 45 };
 // Console.WriteLine($"I found 45 at index {num.IndexOf(45)}");
