@@ -2,18 +2,45 @@
 
 /* Here's below all about language integrated query LINQ and IEnumerable */
 
-List<string> cars = ["Honda", "Hiace", "Yamaha", "Esemka", "BYD", "Alphard"];
+List<int> scores = [40, 50, 67, 13, 20, 100, 99, 88, 76, 56, 43];
+IEnumerable<string> scoreQuery =
+  from score in scores
+  where score >= 75
+  orderby score descending
+  select $"The score is {score}";
+
+Console.WriteLine(scoreQuery.Count());
+foreach (string s in scoreQuery)
+{
+  Console.WriteLine(s);
+}
+
+// int[] values = [30, 50, 20, 45, 56, 12, 100, 12, 88];
+
+// IEnumerable<int> valuesQuery =
+//   from value in values
+//   where value <= 80
+//   orderby value ascending
+//   select value;
+
+// Console.Write("Nilai mu ");
+// foreach (int value in valuesQuery)
+// {
+//   Console.Write($"{value} ");
+// }
+
+// List<string> cars = ["Honda", "Hiace", "Yamaha", "Esemka", "BYD", "Alphard"];
 // define query expression
-IEnumerable<string> carsQuery =
-  from car in cars
-  where car.EndsWith('a')
-  select car;
+// IEnumerable<string> carsQuery =
+//   from car in cars
+//   where car.EndsWith('a')
+//   select car;
 
 // execute the query
-foreach (string c in carsQuery)
-{
-  Console.Write($"{c} ");
-}
+// foreach (string c in carsQuery)
+// {
+//   Console.Write($"{c} ");
+// }
 
 // for (int i = 0; i < numbers.Count; i++)
 // {
