@@ -6,7 +6,7 @@ List<int> scores = [44, 50, 67, 13, 20, 100, 99, 88, 76, 56, 43];
 IEnumerable<string> scoreQuery =
   from score in scores
   where score >= 75
-  orderby score descending
+  orderby score ascending
   select $"The score is {score}";
 
 Console.WriteLine(scoreQuery.Count());
