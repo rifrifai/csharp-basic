@@ -2,13 +2,13 @@
 
 /* Here's below all about language integrated query LINQ and IEnumerable */
 
-List<int> myScores = [40, 50, 60, 70, 80, 90, 100];
+List<int> myScores = [40, 50, 70, 60, 90, 80, 100];
 // IEnumerable<int> myScoresQuery =
 //   from score in myScores
 //    where score >= 60
 //    orderby score ascending
 //    select score;
-var myScoresQuery = myScores.Where(s => s >= 60).OrderBy(s => s);
+var myScoresQuery = myScores.Where(s => s >= 60).OrderByDescending(s => s);
 
 List<int> finalScore = myScoresQuery.ToList();
 foreach (var s in finalScore)
