@@ -2,18 +2,32 @@
 
 /* Here's below all about language integrated query LINQ and IEnumerable */
 
-List<int> scores = [44, 50, 67, 13, 20, 100, 99, 88, 76, 56, 43];
-IEnumerable<string> scoreQuery =
-  from score in scores
-  where score >= 75
-  orderby score ascending
-  select $"The score is {score}";
+List<int> myScores = [40, 50, 60, 70, 80, 90, 100];
+// IEnumerable<int> myScoresQuery =
+//   from score in myScores
+//    where score >= 60
+//    orderby score ascending
+//    select score;
+var myScoresQuery = myScores.Where(s => s >= 60).OrderBy(s => s);
 
-Console.WriteLine(scoreQuery.Count());
-foreach (string s in scoreQuery)
+List<int> finalScore = myScoresQuery.ToList();
+foreach (var s in finalScore)
 {
-  Console.WriteLine(s);
+  Console.Write($"{s} ");
 }
+
+// List<int> scores = [44, 50, 67, 13, 20, 100, 99, 88, 76, 56, 43];
+// IEnumerable<string> scoreQuery =
+//   from score in scores
+//   where score >= 75
+//   orderby score ascending
+//   select $"The score is {score}";
+
+// Console.WriteLine(scoreQuery.Count());
+// foreach (string s in scoreQuery)
+// {
+//   Console.WriteLine(s);
+// }
 
 // int[] values = [30, 50, 20, 45, 56, 12, 100, 12, 88];
 
