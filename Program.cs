@@ -10,17 +10,15 @@ var p3 = new Person("Ahmed", "Syaeff", new DateOnly(1997, 5, 5));
 //   lastname = "Duwinanta",
 //   birthday = new DateOnly(2002, 1, 10)
 // };
-public class Person
+List<Person> people = [p1, p3];
+Console.Write(people.Count());
+
+public class Person(string firstname, string lastname, DateOnly birthday)
 {
-  public Person(string first, string last, DateOnly bd)
-  {
-    firstname = first;
-    lastname = last;
-    birthday = bd;
-  }
-  private string firstname;
-  private string lastname;
-  private DateOnly birthday;
+  public string First { get; } = firstname;
+  public string Last { get; } = lastname;
+  public DateOnly Birthday { get; } = birthday;
+
   // public string firstname;
   // public string lastname;
   // public DateOnly birthday;
