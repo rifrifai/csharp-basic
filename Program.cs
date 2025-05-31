@@ -2,6 +2,40 @@
 
 // Here's below all about object-oriented programming/ pemrograman berorientasi object
 
+var p1 = new Person("John", "Canyon", new DateOnly(1991, 6, 19));
+var p3 = new Person("Ahmed", "Syaeff", new DateOnly(1997, 5, 5));
+// var p2 = new Person()
+// {
+//   firstname = "Bayu",
+//   lastname = "Duwinanta",
+//   birthday = new DateOnly(2002, 1, 10)
+// };
+public class Person
+{
+  public Person(string first, string last, DateOnly bd)
+  {
+    firstname = first;
+    lastname = last;
+    birthday = bd;
+  }
+  private string firstname;
+  private string lastname;
+  private DateOnly birthday;
+  // public string firstname;
+  // public string lastname;
+  // public DateOnly birthday;
+}
+
+// namespace MyNamespace
+// {
+//   public class Program {
+//     public static void Main()
+//     {
+//       Console.Write("Hello Object-oriented Programming");
+//     }
+//   }
+// }
+
 /* Here's below all about language integrated query LINQ and IEnumerable */
 
 // List<int> myScores = [40, 50, 70, 60, 90, 80, 100];
