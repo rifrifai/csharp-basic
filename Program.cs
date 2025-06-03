@@ -2,6 +2,10 @@
 
 // Here's below all about object-oriented programming/ pemrograman berorientasi object
 
+
+
+using System.Dynamic;
+
 var p1 = new Person("John", "Canyon", new DateOnly(1991, 6, 19));
 var p3 = new Person("Ahmed", "Syaeff", new DateOnly(1997, 5, 5));
 // var p2 = new Person()
@@ -22,6 +26,24 @@ public class Person(string firstname, string lastname, DateOnly birthday)
   // public string firstname;
   // public string lastname;
   // public DateOnly birthday;
+}
+
+public class Pet(string firstname)
+{
+  public string First { get; } = firstname;
+  public string MakeNoise() => "??";
+}
+
+public class Cat(string firstname)
+{
+  public string First { get; } = firstname;
+  public string Meow() => "meow";
+}
+
+public class Dog(string firstname)
+{
+  public string First { get; } = firstname;
+  public string Bark() => "bark";
 }
 
 // namespace MyNamespace
